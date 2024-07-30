@@ -1,3 +1,17 @@
 Steps to install husky - 
 1. npm i husky lint-staged -D
 2. npx husky init
+3. create test.js
+4. add script to package.json --  "test" : "node test.js"
+
+Steps to setup typescript - 
+1. npm i typescript -D
+2. npx tsc --init
+3. Change tsconfig.json as 
+    a. uncomment "rootDir": "./src"
+    b. uncomment "outDir" : "./dist"
+4. npm i -D @types/node
+5. npm i ts-node -D
+6. To convert ts files to js - 
+    a. Add script - "dist" : "npx tsc"
+    b. npm run dist
