@@ -1,0 +1,3 @@
+Steps to install husky - 
+1. npm i husky lint-staged -D
+2. npx husky init
